@@ -1,0 +1,2 @@
+2026-10-29 14:14:56,559 [INFO] 실행 시작 | 이미지=C:\Yt\fall_pose_labeling\dataset_nas\낙상사고\By_fall | 라벨=C:\Yt\fall_pose_labeling\dataset_pose\p_labels | 모델=C:\Yt\fall_pose_labeling\models\yolo11s-pose.pt
+2026-10-29 14:20:35,914 [INFO] 완료: TXT 생성 224장 / 기존 TXT 유지 0장 / 미검출 0장 / 오류 0장
