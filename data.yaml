@@ -1,0 +1,15 @@
+# YOLO 바운딩박스 탐지 학습용 설정
+# 현재 원본 이미지: nas/낙상데이터, nas/비낙상데이터
+# 현재 변환된 비낙상 라벨: labels/not_fall
+# 아래 train/val 폴더는 아직 없습니다. 학습 전에 이미지와 TXT를 짝지어 배치하세요.
+# images/train/이름.jpg -> labels/train/이름.txt
+# images/val/이름.jpg   -> labels/val/이름.txt
+# train과 val 양쪽에 낙상/비낙상을 포함하고, 같은 원본에서 나온 자료는 같은 쪽에 묶습니다.
+
+# path: C:/Yt/fall_pose_labeling
+# train: images/train
+# val: images/val
+
+names:
+  0: fall
+  1: not fall
